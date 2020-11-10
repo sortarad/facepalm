@@ -1,0 +1,20 @@
+{
+    "name": "sortarad/facepalm",
+    "description": "Dad jokes for Statamic",
+    "autoload": {
+        "psr-4": {
+            "Sortarad\\Facepalm\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Facepalm",
+            "description": "Dad jokes for Statamic"
+        },
+        "laravel": {
+            "providers": [
+                "Sortarad\\Facepalm\\ServiceProvider"
+            ]
+        }
+    }
+}
