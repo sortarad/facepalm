@@ -23,7 +23,7 @@ class Facepalm extends Widget
             ]);
             $json = json_decode($response->getBody(), true);
 
-            // Cache for one minute;
+            // Cache for one minute.
             return [1 => $json];
         });
 
