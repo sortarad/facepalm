@@ -1,7 +1,7 @@
 {
     "name": "sortarad/facepalm",
     "description": "Dad jokes for Statamic",
-    "keywords": ["jokes, statamic"],
+    "keywords": ["statamic"],
     "homepage": "https://github.com/sortarad/facepalm",
     "license": "MIT",
     "autoload": {
